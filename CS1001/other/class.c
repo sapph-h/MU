@@ -47,7 +47,7 @@ int main()
 */
 
 //4: input number
-
+/*
 int main()
 {
     printf("Enter numbor: ");
@@ -56,7 +56,7 @@ int main()
     printf("The numbor youve entered is %d", n);
     return 0;
 }
-
+*/
 
 /*
 int main()
@@ -66,3 +66,45 @@ int main()
     return 0;
 }
 */
+
+//17/09/26
+/*
+int main()
+{
+    int a,b,c;
+    bool flag;
+
+    a=2;b=5;c=0;
+    if(a<b)
+    {
+        b=0;
+        a=a+b;
+    }
+    else
+    {
+        a=a-b;
+        c=15;
+    }
+    printf("a: %d\n",a);
+    printf("b: %d\n",b);
+    printf("c: %d\n",c);
+}
+*/
+
+int main()
+{
+    int a,b,c;
+    bool flag;
+
+    a=2;b=5;c=-1;
+    while(a<b)
+    {
+        a=a+2;
+        c=c+1;
+        printf("in the while loop\n:");
+    }
+    printf("a: %d\n",a);
+    printf("b: %d\n",b);
+    printf("c: %d\n",c);
+    return 0;
+}
