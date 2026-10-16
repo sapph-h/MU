@@ -91,6 +91,7 @@ int main()
 }
 */
 
+/*
 int main()
 {
     int a,b,c;
@@ -106,5 +107,20 @@ int main()
     printf("a: %d\n",a);
     printf("b: %d\n",b);
     printf("c: %d\n",c);
+    return 0;
+}
+*/
+
+int main()
+{
+    int i, sum;
+    int marks[10] = (0,2,4,8,15,10,-2,10,30,12);
+    sum = 0;
+
+    for (i=0; i<10; i++)
+    {
+        sum+=marks[i];
+    }
+    printf("Sum is: %d", sum);
     return 0;
 }
